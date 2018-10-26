@@ -1,0 +1,77 @@
+.alert{
+                        background-color: #2B3D4F;
+                        margin: 0px 40px;
+                    }
+
+                    .another{
+                    background-color:  #2B3D4F; 
+                        width: 95%;
+                        height: 35%;
+                    }
+
+                     .another img{
+                        height: 100%;
+                        width: 20%;
+                        margin-left: 30px;
+
+                    }
+
+                    #profile{
+                        width:20%; 
+                        height:90%; 
+                        float:right; 
+                         margin: 50px 0px;
+                          box-sizing:border-box;
+                    }
+
+                    #pic1{
+                        display:inline; overflow:hidden; box-sizing:border-box; 
+                     
+                    }
+                    
+                    .dropbtn {
+                        
+
+                        background-image: url("../assets/icons/person.png");
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        display:inline; 
+                         box-sizing:border-box;
+                         border: 3px solid #F39C12;
+                          border-radius: 50%;
+                    }
+
+
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                        height: 65px;
+                        width: 50px;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                       
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                        z-index: 1;
+                        border: 1px solid black;
+                        border-radius: 20%; 
+                    }
+                    
+                    .dropdown-content a {
+                        color: #ffffff;
+                        background-color: #F39C12;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: #ddd;}
+                    
+                    .dropdown:hover .dropdown-content {display: block;}
+                    
+                    .dropdown:hover .dropbtn {background-color: #3e8e41;}
